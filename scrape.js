@@ -119,11 +119,3 @@ module.exports = async function () {
 function timeout(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
-
-// Test start
-try {
-  module.exports();
-} catch (error) {
-  console.log("Error: " + error);
-}
-// Test end
